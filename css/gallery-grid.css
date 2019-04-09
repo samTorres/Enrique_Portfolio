@@ -1,0 +1,73 @@
+
+text/css gallery-grid.css ( ASCII text )
+
+body {
+
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+
+}
+
+.img {
+    width:100%;
+    min-height:100px;
+}
+
+.container.gallery-container {
+
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: auto;
+    margin: 25px auto;
+    font-size: 18px;
+}
+.container {
+    max-width: 1920px;
+}
+
+.tz-gallery {
+    padding: 4px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
